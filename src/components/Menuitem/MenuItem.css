@@ -20,3 +20,16 @@
 .app__menuitem--name {
   flex: 1;
 }
+
+.app__menuitem-dash {
+  width: 90px;
+  height: 1px;
+  background: var(--color-golden);
+  margin: 0 1rem;
+}
+
+.app__menuitem-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
